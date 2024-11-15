@@ -1,0 +1,8 @@
+{
+  "firstNameInputField": "input[id='inputFirstName']",
+  "lastNameInputField": "input[id='inputLastName']",
+  "compileErrorX": "button[style='background: transparent; border: none; font-size: 20px; font-weight: bold; color: white; cursor: pointer; float: right;']",
+  "emailInputField": "input[id='inputEmail']",
+  "webSiteInputField": "input[id='inputWebsite']",
+  "submitButton": "input[id='inputWebsite']"
+}

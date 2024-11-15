@@ -1,23 +1,18 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "importHelpers": true,
-    "module": "es2020",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "target": "es2020",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "target": "es5",
     "lib": [
-      "es2017",
+      "es5",
       "dom"
     ],
-    "plugins": [
-      { "name": "tslint-language-service"}
+    "esModuleInterop": true,
+    "module": "nodenext",
+    "types": [
+      "cypress",
+      "node"
     ]
-  }
+  },
+  "include": [
+    "**/*.ts"
+  ]
 }
